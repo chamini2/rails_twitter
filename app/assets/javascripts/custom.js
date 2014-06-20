@@ -1,5 +1,5 @@
 $(document).ready (function() {
-    $('#compose').keyup(function() {
+    $('#micropost_content').keyup(function() {
         $('#count').text((140 - $(this).val().length) + ' characters left');
     });
 })
